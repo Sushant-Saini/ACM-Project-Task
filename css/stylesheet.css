@@ -1,0 +1,241 @@
+/*
+This Stylesheet is valid for all the 4 Pages and it has been made such that every styling feature i am efficient in 
+is implemented while giving attention to content visiblity and page responsiveness also
+*/
+
+/*BODY*/
+body{
+	background-color: #e7ecef;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+/*HEADINGS*/
+h1.main{
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: bolder;
+	font-size: 10vh;
+	color: #042a2b;
+	font-style: 
+	width:50vw;
+	background-color: #dce0d9;
+	border: solid 5px #31081f;
+	transition-property: border-radius,background-color;
+	transition-delay: .1s;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+}
+
+h1.main:hover{
+	border-radius: 40px;
+	background-color: #95a3b3;
+}
+
+
+h2{
+	font-size: 5vh;
+}
+
+h3{
+	font-variant: small-caps;
+	font-weight: bolder;
+	margin-left: 10px;
+}
+
+h3.content{
+	text-align: left;
+	font-style: oblique;
+	margin-left: 10px;
+}
+
+h5{
+	font-weight: bolder;
+	color: #0e0e52;
+}
+
+/*IMAGES*/
+
+picture{
+	display: inline-block;
+}
+
+img{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: right;
+	display: inline-block;
+	height: 35vh;
+	width: 25vw;
+	opacity: 0.85;
+	transition-property: border-radius,opacity;
+	transition-delay: .1s;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+
+}
+
+img.sat{
+	display: inline-block;
+	height: 70vh;
+	width: 20vw;
+	border: solid 5px #000112;
+	transition-property: border-radius,border-color;
+	transition-delay: .1s;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	opacity: 1;
+}
+
+img.sat:hover{
+	border-radius: 100px;
+	border-color: #b6244f;
+}
+
+img.logo{
+	height: 40px;
+	width: 30px;
+}
+
+img:hover{
+	border-radius: 25px;
+	opacity: 1;
+}
+
+/*CONTENT*/
+
+div.intro{
+	font-style: oblique;
+	font-weight: bolder;
+	text-align: center;
+	background-color: #f7a072;
+	border: solid 4px #f6511d;
+	opacity: 0.9;
+	transition-property: border-color,border-radius,opacity,background-color;
+	transition-delay: .1s;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	margin-bottom: 15px;
+}
+
+div.intro:hover{
+	border-color: #093a3e;
+	background-color: #97c8eb;
+	border-radius: 15px;
+	opacity: 1;
+}
+
+div.centres{
+	font-weight: bolder;
+	background-color: #ff5a5f;
+	border: solid 4px #c81d25;
+	opacity: 0.9;
+	transition-property: border-color,border-radius,opacity,background-color;
+	transition-delay: .1s;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+
+div.centres:hover{
+	border-color: #011627;
+	background-color: #f71735;
+	border-radius: 15px;
+	opacity: 1;
+}
+
+p.footer{
+	display: inline-block;
+	width: 30vw;
+	height: 5vh;
+}
+
+ul.intro{
+	color: 
+}
+
+/*TABLES*/
+
+table{
+	background-color: #f1ffe7;
+	font-style: normal;
+	text-align: center;
+	border: solid 3px #660000;
+	transition-property: border-radius,background-color;
+	transition-delay: .1s;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+}
+
+table:hover{
+	background-color: #9fb8ad;
+	border-radius: 35px;
+}
+/*LISTS*/
+
+ul.completed{
+	width: 50vw;
+	list-style-type: square;
+	background-color: #f4f4f9;
+	color: #2f4550;
+	border: solid 3px #2f4550;
+	transition-property: border-radius,background-color,color;
+	transition-delay: .1s;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+}
+
+ul.completed:hover{
+	border-radius: 30px;
+	background-color: #2f4550;
+	color: #f4f4f9;
+}
+
+details{
+	opacity: 0.9;
+	width: 50vw;
+	background-color: #ffffff;
+	color: #00171F;
+	border: solid 3px #00171F;
+	margin-bottom: 5px;
+	transition-property: border-radius,opacity;
+	transition-delay: .1s;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+
+}
+details:hover{
+	border-radius: 10px;
+	opacity: 1;
+}
+
+summary{
+	opacity: 1;
+	color: #ffffff;
+	background-color: #00171F;
+	font-size: large;
+}
+
+/*FOOTER*/
+
+footer{
+	opacity: 0.75;
+	width: 80vw;
+	border:double 5px #453a49;
+	background-color: #facfad;
+	transition-property: border-radius,opacity;
+	transition-delay: .1s;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+}
+
+footer:hover{
+	background-color: #9197ae;
+	border-radius: 10px;
+	opacity: 1;
+
+}
